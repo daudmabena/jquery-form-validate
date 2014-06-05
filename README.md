@@ -29,6 +29,7 @@ Apply
 
 Call examples:
 
+```javascript
 $(document).ready(function()
 {
  $('form').bind('submit',function()
@@ -40,9 +41,11 @@ $(document).ready(function()
   return false;
  });
 });
+```
 
 If some of the validations is invalid, it returns false, so it can be used this way:
 
+```javascript
 $(document).ready(function()
 {
  $('form').bind('submit',function()
@@ -55,5 +58,6 @@ $(document).ready(function()
   return false;
  });
 });
+```
 
 Any sugestions please contact me.
