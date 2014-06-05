@@ -4,6 +4,7 @@
 	"description": "jQuery Plugin to validate some basic types of data input",
 	"keywords": [
 		"form",
+		"data",
 		"input",
 		"validate",
 		"validation",
