@@ -51,7 +51,8 @@ $(document).ready(function()
  $('form').bind('submit',function()
  {
   $(this).formValidate({type:'reset'});
-  if (!$('#div1,#div2,#div3').formValidate() || !$('#div2').formValidate({type:'ismail'}) || !$('#div4').formValidate({type:'isdate'}))
+  if (!$('#div1,#div2,#div3').formValidate() || !$('#div2').formValidate({type:'ismail'}) || 
+  !$('#div4').formValidate({type:'isdate'}))
    window.console.log(false); // There're errors, needs to be fixed.
   else
    window.console.log(true); // So submit the form.
