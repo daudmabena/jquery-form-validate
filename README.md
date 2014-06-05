@@ -31,29 +31,29 @@ Call examples:
 
 *$(document).ready(function()
 {
-	$('form').bind('submit',function()
-	{
-		$(this).formValidate({type:'reset'});
-		$('#div1,#div2,#div3').formValidate();
-		$('#div2').formValidate({type:'ismail'});
-		$('#div4').formValidate({type:'isdate'});
-		return false;
-	});
+ $('form').bind('submit',function()
+ {
+  $(this).formValidate({type:'reset'});
+  $('#div1,#div2,#div3').formValidate();
+  $('#div2').formValidate({type:'ismail'});
+  $('#div4').formValidate({type:'isdate'});
+  return false;
+ });
 });*
 
 If some of the validations is invalid, it returns false, so it can be used this way:
 
 *$(document).ready(function()
 {
-	$('form').bind('submit',function()
-	{
-		$(this).formValidate({type:'reset'});
-		if (!$('#div1,#div2,#div3').formValidate() || !$('#div2').formValidate({type:'ismail'}) || !$('#div4').formValidate({type:'isdate'}))
-			window.console.log(false); // There're errors, needs to be fixed.
-		else
-			window.console.log(true); // So submit the form.
-		return false;
-	});
+ $('form').bind('submit',function()
+ {
+  $(this).formValidate({type:'reset'});
+  if (!$('#div1,#div2,#div3').formValidate() || !$('#div2').formValidate({type:'ismail'}) || !$('#div4').formValidate({type:'isdate'}))
+   window.console.log(false); // There're errors, needs to be fixed.
+  else
+   window.console.log(true); // So submit the form.
+  return false;
+ });
 });*
 
 Any sugestions please contact me.
