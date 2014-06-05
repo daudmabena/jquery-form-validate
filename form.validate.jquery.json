@@ -1,0 +1,38 @@
+{
+	"name": "form.validate",
+	"title": "jQuery.formValidate",
+	"description": "jQuery Plugin to validate some basic types of data input",
+	"keywords": [
+		"form",
+		"input",
+		"validate",
+		"validation",
+		"simple",
+		"required",
+		"e-mail",
+		"number",
+		"date"
+	],
+	"version": "1.1.1",
+	"author": {
+		"name": "Rafael Maruta"
+	},
+	"maintainers": [
+		{
+			"name": "Rafael Maruta"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/rafaelmaruta/jquery-form-validate/blob/master/LICENSE"
+		}
+	],
+	"bugs": "https://github.com/rafaelmaruta/jquery-form-validate/issues",
+	"homepage": "https://github.com/rafaelmaruta/jquery-form-validate",
+	"docs": "https://github.com/rafaelmaruta/jquery-form-validate",
+	"download": "https://github.com/rafaelmaruta/jquery-form-validate/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.7.0"
+	}
+}
