@@ -29,7 +29,7 @@ Apply
 
 Call examples:
 
-*$(document).ready(function()
+$(document).ready(function()
 {
  $('form').bind('submit',function()
  {
@@ -39,11 +39,11 @@ Call examples:
   $('#div4').formValidate({type:'isdate'});
   return false;
  });
-});*
+});
 
 If some of the validations is invalid, it returns false, so it can be used this way:
 
-*$(document).ready(function()
+$(document).ready(function()
 {
  $('form').bind('submit',function()
  {
@@ -54,6 +54,6 @@ If some of the validations is invalid, it returns false, so it can be used this 
    window.console.log(true); // So submit the form.
   return false;
  });
-});*
+});
 
 Any sugestions please contact me.
