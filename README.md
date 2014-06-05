@@ -28,7 +28,6 @@ Apply
 --------
 
 Call examples:
-
 ```javascript
 $(document).ready(function()
 {
@@ -42,9 +41,7 @@ $(document).ready(function()
   });
 });
 ```
-
 If some of the validations is invalid, it returns false, so it can be used this way:
-
 ```javascript
 $(document).ready(function()
 {
@@ -60,5 +57,4 @@ $(document).ready(function()
   });
 });
 ```
-
 Any sugestions please contact me.
